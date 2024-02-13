@@ -1,9 +1,11 @@
 :root {
-    --ice-blue: #E8E9EB;
-    --alabaster: #E0DFD5;
-    --tomato: #F06543;
-    --onyx: #313638;
-    --sandy-brown: #F09D51;
+    --pale-blue: #C5E0FF;
+    --lavender: #E0D0FF;
+    --powder-pink: #FFD0E0;
+    --mint: #B0FFC5;
+    --white: #FFFFFF;
+    --pale-gold: #FFF5C5;
+    --dusky-purple: #A080A0;
 }
 
 * {
@@ -16,39 +18,8 @@ html {
   background-color: #E8E9EB;
 }
 
+h1 {
+  color: var(--pale-blue);
+}
+
 /* Home CSS */
-
-.card {
-  display: flex;
-  margin: auto;
-  height: 50vh;
-  width: 50vw;
-
-  /* From https://css.glass */
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-}
-
-.card-info {
-  background-color: white;
-  width: 50%;
-  padding: 20px;
-}
-
-/* Profile */
-
-.profile-display {
-  display: flex;
-  align-items: end;
-  background-color: #F09D51;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  width: 50%;
-  height: 100%;
-}
-
-h2 { 
-  color: #E8E9EB;
-  margin: 0 auto;
-}
