@@ -15,11 +15,7 @@
 /* App  */
 
 html {
-  background-color: #E8E9EB;
-}
-
-h1 {
-  color: var(--pale-blue);
+  background-color: var(--pale-blue);
 }
 
 /* Home CSS */
